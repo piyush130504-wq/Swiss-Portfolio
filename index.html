@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      .button { border: 0; cursor: pointer; }
+      .copy-status { min-height: 20px; font: 11px var(--mono); margin-top: 10px !important; }
+    </style>
   </head>
   <body>
     <div class="grain" aria-hidden="true"></div>
@@ -93,7 +97,7 @@
 
       <section id="about" class="about section">
         <div class="section-label"><span>03</span><span>About</span></div>
-        <div class="about-content"><h2>I’m learning design from the inside of the product.</h2><div><p>I’m pursuing a B.Tech in Computer Science and Engineering at Birla Institute of Technology, Mesra. At Rodic Consultants, I build production web applications that require attention to user paths as well as technical detail.</p><p>My grounding is in engineering - React, Node.js, Python, APIs and deployment - but I’m most energised by the product decisions within that work: what a user sees first, what makes a path understandable, and what earns a click.</p><a class="button" href="mailto:piyush130504@gmail.com">Start a conversation <span>↗</span></a></div></div>
+        <div class="about-content"><h2>I’m learning design from the inside of the product.</h2><div><p>I’m pursuing a B.Tech in Computer Science and Engineering at Birla Institute of Technology, Mesra. At Rodic Consultants, I build production web applications that require attention to user paths as well as technical detail.</p><p>My grounding is in engineering - React, Node.js, Python, APIs and deployment - but I’m most energised by the product decisions within that work: what a user sees first, what makes a path understandable, and what earns a click.</p><button class="button" id="copy-email" type="button" data-email="piyush130504@gmail.com">Copy email address <span>↗</span></button><p class="copy-status" id="copy-status" aria-live="polite"></p></div></div>
       </section>
     </main>
     <footer><p>© 2026 PIYUSH PRIYADARSHI</p><div><a href="http://linkedin.com/in/piyush-priyadarshi-449251328" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="mailto:piyush130504@gmail.com">piyush130504@gmail.com ↗</a></div></footer>
